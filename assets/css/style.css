@@ -1,0 +1,71 @@
+/* topnav  */
+/* topnav  */
+
+#top-nav{
+    color: white;
+}
+
+
+/* navbar  */
+/* navbar  */
+
+.navbar{
+    background: red !important;
+}
+a{
+    color: white;
+}
+.narvbar-brand img{
+    width: 20%;
+    height: 20%;
+    border-radius: 80%;
+   
+}
+.navbar-toggler{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+
+}
+
+/* slider  */
+/* slider  */
+
+#demo .carousel-control-next-icon{
+    color: red !important;
+}
+
+/* info  */
+/* info  */
+
+#info{
+    background: url(/assets/img/traxer-ZAIbez5LTrg-unsplash.jpg);
+    height: 50vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+ 
+}
+
+#info .bg-darks p{
+    width: 30%;
+    margin:0 auto;
+}
+
+#info .bg-darks{
+    position: absolute;
+    background: rgba(0, 0, 0, .4);
+    width:100%
+    
+}
+
+@media only screen and (max-width:520px) {
+  /* info  */
+
+  #info .bg-darks p{
+    width: 100%;
+
+  }
+        
+    
+}
